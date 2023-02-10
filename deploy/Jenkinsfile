@@ -6,7 +6,7 @@ pipeline {
         jdk 'JDK11'
     }
     
-    enviroment {
+    environment {
         AWS_CREDENTIAL_NAME = "awsEcrCredentials"
         REGION = "ap-northeast-2"
         ECR_REPOSITORY = "257307634175.dkr.ecr.ap-northeast-2.amazonaws.com"
